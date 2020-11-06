@@ -50,16 +50,16 @@ Este é um pequeno projeto de amostra da aplicação de técnicas e ferramentas 
 
  Desenvolvido três rotas, uma parar criar nova encomenda, uma para listar e outra para alterar o status. As rotas são protegidas para middleware de autenticação, sendo necessário passar o header Authorization.
  
- - Para criar uma nova encomenda
+    - Para criar uma nova encomenda
     Post: /order
     body: {
       "description": "Nova encomenda"
     }
-
- - Para listar as encomendas
+    
+    - Para listar as encomendas
     Get: /order
-
- - Para alterar o status de uma encomenda
+    
+    - Para alterar o status de uma encomenda
     Put: /order
     body: {
       "id": "2e11775d-c519-435d-8979-341b52164bfd",
@@ -68,7 +68,7 @@ Este é um pequeno projeto de amostra da aplicação de técnicas e ferramentas 
 
 # Testes funcionais automatizados (Jest)
 
- Para executar os testes funcionais, é necessário rodar no terminal o comando yarn jest. Para este ambiente não foi configurado um docker para o banco de dados, então é necessário executar o postgres e criar uma database com o nome: ntsencomendas_test
+ Para executar os testes funcionais, é necessário rodar no terminal o comando yarn test. Para este ambiente não foi configurado um docker para o banco de dados, então é necessário executar o postgres e criar uma database com o nome: ntsencomendas_test
  
     Testes executados
   - Criar novo usuário
