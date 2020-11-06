@@ -23,7 +23,7 @@ Este é um pequeno projeto de amostra da aplicação de técnicas e ferramentas 
 
 # Executar ambiente de desenvolvimento
 
- Para executar o ambiente de dev, apenas é necessário rodar no terminal o comando docker-compose up. Este comando irá orquestrar dois containeres: 
+ Para executar o ambiente de dev, apenas é necessário rodar no terminal os comandos yarn (instala as dependências) e docker-compose up. Este comando irá orquestrar dois containeres: 
   1 - Banco de dados postgres
   2 - Aplicação nodeJS
   
